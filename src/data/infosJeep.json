@@ -1,0 +1,50 @@
+[
+  {
+    "titulo":         "Cachoeiras e Alambiques",
+    "imagem":         "jeep.jpeg",
+    "alt_title":      "Cachoeiras e Alambiques: Alambique Paratiana, Cachoeira da Usina + Cachoeira da Pedra Branca, Alambique Pedra Branca, Poço do Tarzan + Cachoeira do Tobogã, Casa de Farinha e Queijaria.",
+    "roteiro":        "Alambique Paratiana, Cachoeira da Usina + Cachoeira da Pedra Branca, Alambique Pedra Branca, Poço do Tarzan + Cachoeira do Tobogã, Casa de Farinha e Queijaria.",
+    "horario_inicio": "11h",
+    "horario_retorno":"17h",
+    "alerta":         "O embarque e desembarque é realizado na hospedagem do cliente. O almoço ocorre no Restaurante do Poço do Tarzan. Há degustação de cachaça gratuita nos alambiques, além de visita guiada.",
+    "valor":          "R$ 150",
+    "alerta_dois":    "É cobrado R$10 por pessoa na entrada da Cachoeira da Pedra Branca que deve ser pago na portaria ao ingressar.",
+    "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%20Cachoeiras%20e%20Alambiques."
+  },
+  {
+    "titulo":         "Trindade",
+    "imagem":         "trindade.jpeg",
+    "alt_title":      "Trindade: Praia do Cepilho, Praia dos Ranchos, Praia do Meio, Praia do Cachadaço e Piscinas Naturais.",
+    "roteiro":        "Praia do Cepilho, Praia dos Ranchos, Praia do Meio, Praia do Cachadaço e Piscinas Naturais.",
+    "horario_inicio": "10h",
+    "horario_retorno":"16h",
+    "alerta":         "O embarque e desembarque é realizado na hospedagem do cliente. O almoço ocorre no Restaurante Nascer do Sol na Praia dos Ranchos.",
+    "valor":          "R$ 150",
+    "alerta_dois":    "Poderão ser cobradas tarifas adicionais para translado de bote para as Piscinas Naturais.",
+    "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%20Trindade."
+  },
+  {
+    "titulo":         "3 em 1 (Ilha do Cedro)",
+    "imagem":         "jeep-tres-em-um.jpeg",
+    "alt_title":      "3 em 1 (Ilha do Cedro): Praia do Iriri, Ilha do Cedro e Cachoeira do Iriri.",
+    "roteiro":        "Praia do Iriri, Ilha do Cedro e Cachoeira do Iriri.",
+    "horario_inicio": "",
+    "horario_retorno":"",
+    "alerta":         "",
+    "valor":          "R$ 250",
+    "alerta_dois":    "",
+    "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%203%20em%201."
+  },
+  {
+    "titulo":         "Ilha do Cedro",
+    "imagem":         "jeep-ilha-cedro.jpeg",
+    "alt_title":      "Ilha do Cedro: Praia da Pitanga e Ilha do Cedro.",
+    "roteiro":        "Praia da Pitanga e Ilha do Cedro.",
+    "horario_inicio": "",
+    "horario_retorno":"",
+    "alerta":         "",
+    "valor":          "R$ 150",
+    "alerta_dois":    "",
+    "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%20Ilha%20do%20Cedro."
+  }
+]

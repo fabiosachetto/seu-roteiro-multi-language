@@ -1,0 +1,30 @@
+{
+  "HomePage": {
+    "title": "Home Page",
+    "Escunas": {
+      "title": "EN - Escunas",
+      "title_link": "EN - Página de Escunas"
+    },
+    "Jeep": {
+      "title": "EN - Jeep",
+      "title_link": "EN - Página de Jeep"
+    },
+    "Privativos": {
+      "title": "EN - Privativos",
+      "title_link": "EN - Página de Privativos",
+      "subtitle": "EN - LANCHAS, VELEIROS E MAIS"
+    }
+  },
+  "EscunasPage": {
+    "title": "EN - Escunas",
+    "link": "EN - Clique aqui para voltar para HomePage"
+  },
+  "JeepPage": {
+    "title": "EN - Jeep",
+    "link": "EN - Clique aqui para voltar para HomePage"
+  },
+  "PrivativosPage": {
+    "title": "EN - Privativos",
+    "link": "EN - Clique aqui para voltar para HomePage"
+  }
+}

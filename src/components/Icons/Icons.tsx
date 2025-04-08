@@ -1,0 +1,14 @@
+export { AlertIcon } from "./icons/AlertIcon";
+export { AmexIcon } from "./icons/AmexIcon";
+export { BoletoIcon } from "./icons/BoletoIcon";
+export { ClockIcon } from "./icons/ClockIcon";
+export { DinersIcon } from "./icons/DinersIcon";
+export { EloIcon } from "./icons/EloIcon";
+export { EmailIcon } from "./icons/EmailIcon";
+export { HipercardIcon } from "./icons/HipercardIcon";
+export { InstagramIcon } from "./icons/InstagramIcon";
+export { MastercardIcon } from "./icons/MastercardIcon";
+export { PixIcon } from "./icons/PixIcon";
+export { VisaIcon } from "./icons/VisaIcon";
+export { WhatsappIcon } from "./icons/WhatsappIcon";
+export { WifiIcon } from "./icons/WifiIcon";
