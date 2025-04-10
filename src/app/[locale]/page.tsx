@@ -1,10 +1,10 @@
 import { Link } from "@/i18n/routing";
-// import { getTranslations } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 import infosHome from "@/data/infosHome.json";
 import Image from "next/image";
 
 export default async function HomePage() {
-  //const t = await getTranslations("HomePage");
+  const t = await getTranslations("HomePage");
   const escunaInfo = infosHome.find(info => info.titulo_pagina === "Escunas");
   const jeepInfo = infosHome.find(info => info.titulo_pagina === "Jeep");
   const privativosInfo = infosHome.find(info => info.titulo_pagina === "Privativos");
@@ -43,6 +43,36 @@ export default async function HomePage() {
     // </div>
 
     <div className="text-center">
+      <h1>{t("title")}</h1>
+
+      <div>
+        <h2>{t("Escunas.title")}</h2>
+        <Link
+          href={{ pathname: "/escunas" }}
+          className="text-red-600 hover:bg-slate-400">
+          {t("Escunas.title_link")}
+        </Link>
+      </div>
+
+      <div>
+        <h2>{t("Jeep.title")}</h2>
+        <Link
+          href={{ pathname: "/jeep" }}
+          className="text-red-600 hover:bg-slate-400">
+          {t("Jeep.title_link")}
+        </Link>
+      </div>
+
+      <div>
+        <h2>{t("Privativos.title")}</h2>
+        <h3>{t("Privativos.subtitle")}</h3>
+        <Link
+          href={{ pathname: "/privativos" }}
+          className="text-red-600 hover:bg-slate-400">
+          {t("Privativos.title_link")}
+        </Link>
+      </div>
+
       {escunaInfo && (
         <div key={escunaInfo.titulo_pagina}>
           <section id="escuna" className="mt-7 p-7 text-white text-center">
