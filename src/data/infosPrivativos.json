@@ -1,38 +1,38 @@
 [
   {
-    "titulo":         "Lancha",
-    "imagem":         "lancha.png",
-    "alt_title":      "Lancha Privativa: Roteiros e horários definidos pelo cliente.",
-    "roteiro":        "Roteiros e horários definidos pelo cliente.",
-    "servicos":       "Churrasqueira, cooler, gelo, água, frutas, flutuadores e snorkel.",
-    "valor":          "R$ 1.500",    
-    "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20Privativo%20de%20Lancha."
+    "titulo": "Lancha",
+    "imagem": "lancha.jpeg",
+    "alt_title": "Lancha Privativa: Roteiros e horários definidos pelo cliente.",
+    "roteiro": "Roteiros e horários definidos pelo cliente.",
+    "servicos": "Churrasqueira, cooler, gelo, água, frutas, flutuadores e snorkel.",
+    "valor": "R$ 1.500 (Capacidade para até 7 pessoas.)",
+    "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20Privativo%20de%20Lancha."
   },
   {
-    "titulo":         "Veleiro",
-    "imagem":         "veleiro.png",
-    "alt_title":      "Veleiro Privativo: Roteiros e horários definidos pelo cliente.",
-    "roteiro":        "Consultar por disponibilidade.",
-    "servicos":       "",
-    "valor":          "",    
-    "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20Privativo%20de%20Veleiro."
+    "titulo": "Veleiro",
+    "imagem": "veleiro.png",
+    "alt_title": "Veleiro Privativo: Roteiros e horários definidos pelo cliente.",
+    "roteiro": "Consultar por disponibilidade.",
+    "servicos": "",
+    "valor": "R$ 2.800.",
+    "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20Privativo%20de%20Veleiro."
   },
   {
-    "titulo":         "Traineira",
-    "imagem":         "traineira.jpeg",
-    "alt_title":      "Traineira Privativa: Roteiros e horários definidos pelo cliente.",
-    "roteiro":        "Roteiros e horários definidos pelo cliente.",
-    "servicos":       "Churrasqueira, cooler, gelo, água, frutas, flutuadores, snorkel e ducha de água doce.",
-    "valor":          "R$ 1.000",    
-    "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20Privativo%20de%20Traineira."
+    "titulo": "Traineira",
+    "imagem": "traineira.jpeg",
+    "alt_title": "Traineira Privativa: Roteiros e horários definidos pelo cliente.",
+    "roteiro": "Roteiros e horários definidos pelo cliente.",
+    "servicos": "Churrasqueira, cooler, gelo, água, frutas, flutuadores, snorkel e ducha de água doce.",
+    "valor": "R$ 1.000 (Capacidade para até 25 pessoas.)",
+    "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20Privativo%20de%20Traineira."
   },
   {
-    "titulo":         "Roteiros Personalizados",
-    "imagem":         "roteiros-personalizados.png",
-    "alt_title":      "Conheça Nossos Roteiros de Passeios Personalizados.",
-    "roteiro":        "Estaria procurando por um lugar ou roteiro diferente dos que sugerimos? Conte-nos e te ajudaremos a criar o seu próprio passeio!",
-    "servicos":       "",
-    "valor":          "",    
-    "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20em%20saber%20sobre%20Roteiros%20Personalizados."
+    "titulo": "Roteiros Personalizados",
+    "imagem": "roteiros-personalizados.png",
+    "alt_title": "Conheça Nossos Roteiros de Passeios Personalizados.",
+    "roteiro": "Estaria procurando por um lugar ou roteiro diferente dos que sugerimos? Conte-nos e te ajudaremos a criar o seu próprio passeio!",
+    "servicos": "",
+    "valor": "",
+    "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20em%20saber%20sobre%20Roteiros%20Personalizados."
   }
 ]

@@ -16,7 +16,7 @@
   },
   {
     "titulo": "Roteiro Lagoa Azul",
-    "manutencao": "boat-manutencao.png",
+    "manutencao": "",
     "imagem": "escuna-roteiro-lagoa-azul.jpeg",
     "alt_title": "Roteiro Lagoa Azul: Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula.",
     "roteiro": "Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula.",
@@ -26,15 +26,15 @@
     "wifi": "Wi-Fi disponível.",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
     "valor": "R$ 110",
-    "pascoa": "",
+    "pascoa": "OBS: Entre os dias 18/04 e 21/04 o valor deste passeio será de R$ 130 por pessoa.",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Roteiro%20Lagoa%20Azul."
   },
   {
     "titulo": "Roteiro Tradicional",
     "manutencao": "",
     "imagem": "escuna-tradicional.jpeg",
-    "alt_title": "Roteiro Tradicional: Ilha Comprida, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.",
-    "roteiro": "Ilha Comprida, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.",
+    "alt_title": "Roteiro Tradicional: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.",
+    "roteiro": "Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.",
     "horario_inicio": "11h",
     "horario_retorno": "17h",
     "servicos": "Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.",
@@ -56,7 +56,7 @@
     "wifi": "Wi-Fi disponível.",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
     "valor": "R$ 150",
-    "pascoa": "OBS: Entre os dias 18/04 e 21/04 o valor deste passeio será de R$180 por pessoa.",
+    "pascoa": "OBS: Entre os dias 18/04 e 21/04 o valor deste passeio será de R$ 180 por pessoa.",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Escuna%20Temática%20de%20Piratas."
   },
   {
@@ -71,7 +71,7 @@
     "wifi": "Wi-Fi disponível.",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
     "valor": "R$ 150",
-    "pascoa": "OBS: Entre os dias 18/04 e 21/04 o valor deste passeio será de R$180 por pessoa.",
+    "pascoa": "OBS: Entre os dias 18/04 e 21/04 o valor deste passeio será de R$ 180 por pessoa.",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Roteiro%20Ilha%20dos%20Cocos."
   },
   {

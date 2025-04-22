@@ -12,7 +12,12 @@
     "Privativos": {
       "title": "EN - Privativos",
       "title_link": "EN - Página de Privativos",
-      "subtitle": "EN - LANCHAS, VELEIROS E MAIS"
+      "subtitle": "EN - LANCHAS, VELEIROS E MAIS!!!"
+    },
+    "Experiencias": {
+      "title": "EN - Experiências",
+      "title_link": "EN - Página de Experiências",
+      "subtitle": "EN - City Tour, Mergulho e Mais!!!"
     }
   },
   "EscunasPage": {
@@ -25,6 +30,10 @@
   },
   "PrivativosPage": {
     "title": "EN - Privativos",
+    "link": "EN - Clique aqui para voltar para HomePage"
+  },
+  "ExperienciasPage": {
+    "title": "EN - Experiências",
     "link": "EN - Clique aqui para voltar para HomePage"
   }
 }

@@ -19,7 +19,14 @@ export const Navbar = () => {
 
   const NavbarList = ({ children, className, ...props }: NavbarListProps) => {
     return (
-      <div className={cn(isOpen ? "flex absolute top-24 bg-blue-500 w-full p-4 left-0 gap-4 flex-col" : "hidden md:flex", className)} {...props}>
+      <div
+        className={cn(
+          isOpen
+            ? "flex absolute top-24 bg-blue-500 w-full p-4 left-0 gap-4 flex-col"
+            : "hidden md:flex",
+          className
+        )}
+        {...props}>
         {children}
       </div>
     );
@@ -52,6 +59,9 @@ export const Navbar = () => {
           </NavbarListItemLink>
           <NavbarListItemLink href="/privativos" onClick={toggleMenu}>
             Privativos
+          </NavbarListItemLink>
+          <NavbarListItemLink href="/experiencias" onClick={toggleMenu}>
+            Experiências
           </NavbarListItemLink>
           <NavbarListItemLink
             href="/quemsomos"

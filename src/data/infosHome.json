@@ -1,18 +1,24 @@
 [
   {
-    "titulo_pagina":  "Escunas",
-    "imagem":         "escuna.jpeg",
-    "alt_title":      "Conheça Nossos Roteiros de Escunas"    
+    "titulo_pagina": "Escunas",
+    "imagem": "escuna.jpeg",
+    "alt_title": "Conheça Nossos Roteiros de Escunas."
   },
   {
-    "titulo_pagina":  "Jeep",
-    "imagem":         "jeep.jpeg",
-    "alt_title":      "Conheça Nossos Roteiros de Jeep"    
+    "titulo_pagina": "Jeep",
+    "imagem": "jeep.jpeg",
+    "alt_title": "Conheça Nossos Roteiros de Jeep."
   },
   {
-    "titulo_pagina":  "Privativos",
-    "titulo":         "Lanchas, Veleiros e Mais",
-    "imagem":         "lancha.png",
-    "alt_title":      "Conheça Nossos Roteiros Privativos"    
+    "titulo_pagina": "Privativos",
+    "titulo": "Lanchas, Veleiros e Mais!!!",
+    "imagem": "lancha.jpeg",
+    "alt_title": "Conheça Nossos Roteiros Privativos."
+  },
+  {
+    "titulo_pagina": "Experiências",
+    "titulo": "City Tour, Mergulho e Mais!!!",
+    "imagem": "experiencias.jpg",
+    "alt_title": "Conheça Nossos Roteiros de Experiências."
   }
 ]

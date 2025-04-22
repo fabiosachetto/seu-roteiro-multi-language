@@ -17,5 +17,61 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: openSans, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: stella, sans-serif;
+}
+
+a,
+p {
+  font-family: openSans, sans-serif;
+}
+
+#clock-icon {
+  margin-top: 3px;
+}
+
+#traineira,
+#escuna,
+#expericeias,
+#quemsomosnos {
+  background-color: #e5efdf;
+}
+
+#escuna svg,
+#escuna strong,
+#escuna h2,
+#escuna h3,
+#escuna h4,
+#escuna p,
+#expericeias svg,
+#expericeias strong,
+#expericeias h2,
+#expericeias h3,
+#expericeias h4,
+#expericeias p,
+#traineira h2,
+#traineira h3,
+#traineira p,
+#quemsomosnos h2,
+#quemsomosnos p {
+  color: #91602a;
+}
+#jeep {
+  background-color: #91602a;
+}
+#privativos {
+  background-color: #82ac9d;
+}
+
+#programa,
+#lancha {
+  background-color: #4f2f26;
+}
+
+#link-brain-tech {
+  background-color: #160f27;
 }

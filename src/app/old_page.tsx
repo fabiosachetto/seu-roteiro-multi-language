@@ -1,10 +1,8 @@
-import { Link } from "@/i18n/routing";
-import { getTranslations } from "next-intl/server";
 import infosHome from "@/data/infosHome.json";
 import Image from "next/image";
+import Link from "next/link";
 
-export default async function HomePage() {
-  const t = await getTranslations("HomePage");
+export default function Home() {
   const escunaInfo = infosHome.find((info) => info.titulo_pagina === "Escunas");
   const jeepInfo = infosHome.find((info) => info.titulo_pagina === "Jeep");
   const privativosInfo = infosHome.find(
@@ -16,51 +14,10 @@ export default async function HomePage() {
 
   return (
     <div className="text-center">
-      <h1>{t("title")}</h1>
-
-      <div>
-        <h2>{t("Escunas.title")}</h2>
-        <Link
-          href={{ pathname: "/escunas" }}
-          className="text-red-600 hover:bg-slate-400">
-          {t("Escunas.title_link")}
-        </Link>
-      </div>
-
-      <div>
-        <h2>{t("Jeep.title")}</h2>
-        <Link
-          href={{ pathname: "/jeep" }}
-          className="text-red-600 hover:bg-slate-400">
-          {t("Jeep.title_link")}
-        </Link>
-      </div>
-
-      <div>
-        <h2>{t("Privativos.title")}</h2>
-        <h3>{t("Privativos.subtitle")}</h3>
-        <Link
-          href={{ pathname: "/privativos" }}
-          className="text-red-600 hover:bg-slate-400">
-          {t("Privativos.title_link")}
-        </Link>
-      </div>
-
-      <div>
-        <h2>{t("Experiencias.title")}</h2>
-        <h3>{t("Experiencias.subtitle")}</h3>
-        <Link
-          href={{ pathname: "/experiencias" }}
-          className="text-red-600 hover:bg-slate-400">
-          {t("Experiencias.title_link")}
-        </Link>
-      </div>
-
       {escunaInfo && (
         <div key={escunaInfo.titulo_pagina}>
           <section id="escuna" className="mt-7 p-7 text-white text-center">
             <h2 className="text-4xl mb-5 uppercase">
-              {t("Escunas.title")} <br />
               {escunaInfo.titulo_pagina}
             </h2>
             <div className="inline-block">
@@ -97,7 +54,6 @@ export default async function HomePage() {
         <div key={jeepInfo.titulo_pagina}>
           <section id="jeep" className="mt-7 p-7 text-white text-center">
             <h2 className="text-4xl mb-5 uppercase">
-              {t("Jeep.title")} <br />
               {jeepInfo.titulo_pagina}
             </h2>
             <div className="inline-block">
@@ -134,7 +90,6 @@ export default async function HomePage() {
         <div key={privativosInfo.titulo_pagina}>
           <section id="privativos" className="mt-7 p-7 text-white text-center">
             <h2 className="text-4xl mb-5 uppercase">
-              {t("Privativos.title")} <br />
               {privativosInfo.titulo_pagina}
             </h2>
             <h3 className="text-2xl mb-5 uppercase font-bold">
@@ -172,11 +127,8 @@ export default async function HomePage() {
 
       {experienciaInfo && (
         <div key={experienciaInfo.titulo_pagina}>
-          <section
-            id="experiencias"
-            className="mt-7 p-7 text-white text-center">
+          <section id="escuna" className="mt-7 p-7 text-white text-center">
             <h2 className="text-4xl mb-5 uppercase">
-              {t("Experiencias.title")} <br />
               {experienciaInfo.titulo_pagina}
             </h2>
             <h3 className="text-2xl mb-5 uppercase font-bold">

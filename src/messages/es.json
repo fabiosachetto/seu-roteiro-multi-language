@@ -13,6 +13,11 @@
       "title": "ES - Privativos",
       "title_link": "ES - Página de Privativos",
       "subtitle": "ES - LANCHAS, VELEIROS E MAIS"
+    },
+    "Experiencias": {
+      "title": "ES - Experiências",
+      "title_link": "ES - Página de Experiências",
+      "subtitle": "ES - LANCHAS, VELEIROS E MAIS"
     }
   },
   "EscunasPage": {
@@ -25,6 +30,10 @@
   },
   "PrivativosPage": {
     "title": "ES - Privativos",
+    "link": "ES - Clique aqui para voltar para HomePage"
+  },
+  "ExperienciasPage": {
+    "title": "ES - Experiências",
     "link": "ES - Clique aqui para voltar para HomePage"
   }
 }

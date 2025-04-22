@@ -3,7 +3,10 @@
     "title": "PT - Página Inicial",
     "Escunas": {
       "title": "PT - Escunas",
-      "title_link": "PT - Página de Escunas"
+      "title_link": "PT - Página de Escunas",
+      "titulo_pagina": "Escunas",
+      "imagem": "escuna.jpeg",
+      "alt_title": "Conheça Nossos Roteiros de Escunas"
     },
     "Jeep": {
       "title": "PT - Jeep",
@@ -12,7 +15,12 @@
     "Privativos": {
       "title": "PT - Privativos",
       "title_link": "PT - Página de Privativos",
-      "subtitle": "PT - LANCHAS, VELEIROS E MAIS"
+      "subtitle": "PT - LANCHAS, VELEIROS E MAIS!!!"
+    },
+    "Experiencias": {
+      "title": "PT - Experiências",
+      "title_link": "PT - Página de Experiências",
+      "subtitle": "PT - City Tour, Mergulho e Mais!!!"
     }
   },
   "EscunasPage": {
@@ -25,6 +33,10 @@
   },
   "PrivativosPage": {
     "title": "PT - Privativos",
+    "link": "PT - Clique aqui para voltar para HomePage"
+  },
+  "ExperienciasPage": {
+    "title": "PT - Experiencias",
     "link": "PT - Clique aqui para voltar para HomePage"
   }
 }

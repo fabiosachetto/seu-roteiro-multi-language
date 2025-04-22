@@ -25,6 +25,11 @@ export const routing = defineRouting({
       en: "/privativos",
       es: "/privativos",
     },
+    "/experiencias": {
+      pt: "/experiencias",
+      en: "/experiencias",
+      es: "/experiencias",
+    },
   },
 });
 

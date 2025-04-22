@@ -1,5 +1,11 @@
 "use client";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from "@/components/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { Locale, routing, usePathname, useRouter } from "@/i18n/routing";
 import { useParams } from "next/navigation";
 import { ReactNode } from "react";
@@ -33,7 +39,7 @@ export default function LocaleSwitcherSelect({ defaultValue, label }: Props) {
         aria-label={label}>
         <SelectValue />
       </SelectTrigger>
-      <SelectContent>
+      <SelectContent className="bg-blue-500">
         {routing.locales.map((locale) => (
           <SelectItem key={locale} value={locale}>
             {locale.toUpperCase()}

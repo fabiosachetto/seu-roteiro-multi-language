@@ -3,9 +3,11 @@ import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import localFont from "next/font/local";
-import "./../globals.css";
+import "./globals.css";
 import { ReactNode } from "react";
 import { Footer } from "@/components/Footer/Footer";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics/GoogleAnalytics";
+import { Analytics } from "@vercel/analytics/next";
 
 const openSans = localFont({
   src: "./../fonts/OpenSans-Regular.ttf",
@@ -26,6 +28,7 @@ export default async function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="pt-BR">
       <body className={`${openSans} ${stella}`} cz-shortcut-listen="false">
+        <GoogleAnalytics />
         <main className="mt-32 sm:mt-32 relative">
           <NextIntlClientProvider messages={messages}>
             <Navbar />
@@ -35,6 +38,7 @@ export default async function RootLayout({ children }: LayoutProps) {
             <Footer />
           </NextIntlClientProvider>
         </main>
+        <Analytics />
       </body>
     </html>
   );
