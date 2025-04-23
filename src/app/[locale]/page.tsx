@@ -88,6 +88,11 @@ export default async function HomePage() {
                 className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
                 Saiba Mais
               </Link>
+              {/* <Link
+                href={{ pathname: "/escunas" }}
+                className="text-red-600 hover:bg-slate-400">
+                {t("Escunas.title_link")}
+              </Link> */}
             </div>
           </section>
         </div>
