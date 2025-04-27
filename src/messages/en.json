@@ -1,39 +1,42 @@
 {
   "HomePage": {
-    "title": "Home Page",
     "Escunas": {
-      "title": "EN - Escunas",
-      "title_link": "EN - Página de Escunas"
+      "title": "Schooners",
+      "alt_title": "Discover Our Schooner Routes.",
+      "title_link": "Learn More"
     },
     "Jeep": {
-      "title": "EN - Jeep",
-      "title_link": "EN - Página de Jeep"
+      "title": "Jeep",
+      "alt_title": "Discover Our Jeep Tours.",
+      "title_link": "Learn More"
     },
     "Privativos": {
-      "title": "EN - Privativos",
-      "title_link": "EN - Página de Privativos",
-      "subtitle": "EN - LANCHAS, VELEIROS E MAIS!!!"
+      "title": "Private",
+      "sub_title": "Speedboats, Sailboats and More!!!",
+      "alt_title": "Discover Our Private Tours.",
+      "title_link": "Learn More"
     },
     "Experiencias": {
-      "title": "EN - Experiências",
-      "title_link": "EN - Página de Experiências",
-      "subtitle": "EN - City Tour, Mergulho e Mais!!!"
+      "title": "Experiences",
+      "sub_title": "City Tour, Diving and More!!!",
+      "alt_title": "Discover Our Experience Itineraries.",
+      "title_link": "Learn More"
     }
   },
   "EscunasPage": {
     "title": "EN - Escunas",
-    "link": "EN - Clique aqui para voltar para HomePage"
+    "whatsapp": "EN - Reserve Já!!!"
   },
   "JeepPage": {
     "title": "EN - Jeep",
-    "link": "EN - Clique aqui para voltar para HomePage"
+    "whatsapp": "EN - Reserve Já!!!"
   },
   "PrivativosPage": {
     "title": "EN - Privativos",
-    "link": "EN - Clique aqui para voltar para HomePage"
+    "whatsapp": "EN - Reserve Já!!!"
   },
   "ExperienciasPage": {
     "title": "EN - Experiências",
-    "link": "EN - Clique aqui para voltar para HomePage"
+    "whatsapp": "EN - Reserve Já!!!"
   }
 }

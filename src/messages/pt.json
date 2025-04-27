@@ -1,42 +1,42 @@
 {
   "HomePage": {
-    "title": "PT - Página Inicial",
     "Escunas": {
-      "title": "PT - Escunas",
-      "title_link": "PT - Página de Escunas",
-      "titulo_pagina": "Escunas",
-      "imagem": "escuna.jpeg",
-      "alt_title": "Conheça Nossos Roteiros de Escunas"
+      "title": "Escunas",
+      "alt_title": "Conheça Nossos Roteiros de Escunas.",
+      "title_link": "Saiba Mais"
     },
     "Jeep": {
-      "title": "PT - Jeep",
-      "title_link": "PT - Página de Jeep"
+      "title": "Jeep",
+      "alt_title": "Conheça Nossos Roteiros de Jeep.",
+      "title_link": "Saiba Mais"
     },
     "Privativos": {
-      "title": "PT - Privativos",
-      "title_link": "PT - Página de Privativos",
-      "subtitle": "PT - LANCHAS, VELEIROS E MAIS!!!"
+      "title": "Privativos",
+      "sub_title": "Lanchas, Veleiros e Mais!!!",
+      "alt_title": "Conheça Nossos Roteiros Privativos.",
+      "title_link": "Saiba Mais"
     },
     "Experiencias": {
-      "title": "PT - Experiências",
-      "title_link": "PT - Página de Experiências",
-      "subtitle": "PT - City Tour, Mergulho e Mais!!!"
+      "title": "Experiências",
+      "sub_title": "City Tour, Mergulho e Mais!!!",
+      "alt_title": "Conheça Nossos Roteiros de Experiências.",
+      "title_link": "Saiba Mais"
     }
   },
   "EscunasPage": {
     "title": "PT - Escunas",
-    "link": "PT - Clique aqui para voltar para HomePage"
+    "whatsapp": "PT - Reserve Já!!!"
   },
   "JeepPage": {
     "title": "PT - Jeep",
-    "link": "PT - Clique aqui para voltar para HomePage"
+    "whatsapp": "PT - Reserve Já!!!"
   },
   "PrivativosPage": {
     "title": "PT - Privativos",
-    "link": "PT - Clique aqui para voltar para HomePage"
+    "whatsapp": "PT - Reserve Já!!!"
   },
   "ExperienciasPage": {
     "title": "PT - Experiencias",
-    "link": "PT - Clique aqui para voltar para HomePage"
+    "whatsapp": "PT - Reserve Já!!!"
   }
 }

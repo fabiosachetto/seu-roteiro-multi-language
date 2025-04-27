@@ -1,39 +1,42 @@
 {
   "HomePage": {
-    "title": "ES - Página Inicial",
     "Escunas": {
-      "title": "ES - Escunas",
-      "title_link": "ES - Página de Escunas"
+      "title": "Goletas",
+      "title_link": "Más información",
+      "alt_title": "Descubra nuestros tours en Goleta."
     },
     "Jeep": {
-      "title": "ES - Jeep",
-      "title_link": "ES - Página de Jeep"
+      "title": "Jeep",
+      "alt_title": "Descubra nuestros tours en Jeep.",
+      "title_link": "Más información"
     },
     "Privativos": {
-      "title": "ES - Privativos",
-      "title_link": "ES - Página de Privativos",
-      "subtitle": "ES - LANCHAS, VELEIROS E MAIS"
+      "title": "Privados",
+      "sub_title": "Lanchas rápidas, veleros y mucho más!!!",
+      "alt_title": "Descubra nuestros tours Privados.",
+      "title_link": "Más información"
     },
     "Experiencias": {
-      "title": "ES - Experiências",
-      "title_link": "ES - Página de Experiências",
-      "subtitle": "ES - LANCHAS, VELEIROS E MAIS"
+      "title": "Experiencias",
+      "sub_title": "Lanchas rápidas, veleros y mucho más!!!",
+      "alt_title": "Descubra nuestros tours Experiencias.",
+      "title_link": "Más información"
     }
   },
   "EscunasPage": {
     "title": "ES - Escunas",
-    "link": "ES - Clique aqui para voltar para HomePage"
+    "whatsapp": "ES - Reserve Já!!!"
   },
   "JeepPage": {
     "title": "ES - Jeep",
-    "link": "ES - Clique aqui para voltar para HomePage"
+    "whatsapp": "ES - Reserve Já!!!"
   },
   "PrivativosPage": {
     "title": "ES - Privativos",
-    "link": "ES - Clique aqui para voltar para HomePage"
+    "whatsapp": "ES - Reserve Já!!!"
   },
   "ExperienciasPage": {
     "title": "ES - Experiências",
-    "link": "ES - Clique aqui para voltar para HomePage"
+    "whatsapp": "ES - Reserve Já!!!"
   }
 }

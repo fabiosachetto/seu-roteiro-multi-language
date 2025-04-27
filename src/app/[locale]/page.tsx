@@ -16,7 +16,7 @@ export default async function HomePage() {
 
   return (
     <div className="text-center">
-      <h1>{t("title")}</h1>
+      {/* <h1>{t("title")}</h1>
 
       <div>
         <h2>{t("Escunas.title")}</h2>
@@ -54,28 +54,28 @@ export default async function HomePage() {
           className="text-red-600 hover:bg-slate-400">
           {t("Experiencias.title_link")}
         </Link>
-      </div>
+      </div> */}
 
       {escunaInfo && (
         <div key={escunaInfo.titulo_pagina}>
           <section id="escuna" className="mt-7 p-7 text-white text-center">
             <h2 className="text-4xl mb-5 uppercase">
-              {t("Escunas.title")} <br />
-              {escunaInfo.titulo_pagina}
+              {t("Escunas.title")}
+              {/* {escunaInfo.titulo_pagina} */}
             </h2>
             <div className="inline-block">
               <Image
                 src={`/assets/images/${escunaInfo.imagem}`}
-                alt={escunaInfo.alt_title}
-                title={escunaInfo.alt_title}
+                alt={t("Escunas.alt_title")}
+                title={t("Escunas.alt_title")}
                 width={500}
                 height={333}
                 className="hidden md:block object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
               />
               <Image
                 src={`/assets/images/${escunaInfo.imagem}`}
-                alt={escunaInfo.alt_title}
-                title={escunaInfo.alt_title}
+                alt={t("Escunas.alt_title")}
+                title={t("Escunas.alt_title")}
                 width={300}
                 height={200}
                 className="block md:hidden object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
@@ -86,13 +86,8 @@ export default async function HomePage() {
               <Link
                 href="/escunas"
                 className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
-                Saiba Mais
-              </Link>
-              {/* <Link
-                href={{ pathname: "/escunas" }}
-                className="text-red-600 hover:bg-slate-400">
                 {t("Escunas.title_link")}
-              </Link> */}
+              </Link>
             </div>
           </section>
         </div>
@@ -102,22 +97,22 @@ export default async function HomePage() {
         <div key={jeepInfo.titulo_pagina}>
           <section id="jeep" className="mt-7 p-7 text-white text-center">
             <h2 className="text-4xl mb-5 uppercase">
-              {t("Jeep.title")} <br />
-              {jeepInfo.titulo_pagina}
+              {t("Jeep.title")}
+              {/* {jeepInfo.titulo_pagina} */}
             </h2>
             <div className="inline-block">
               <Image
                 src={`/assets/images/${jeepInfo.imagem}`}
-                alt={jeepInfo.alt_title}
-                title={jeepInfo.alt_title}
+                alt={t("Jeep.alt_title")}
+                title={t("Jeep.alt_title")}
                 width={500}
                 height={333}
                 className="hidden md:block object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
               />
               <Image
                 src={`/assets/images/${jeepInfo.imagem}`}
-                alt={jeepInfo.alt_title}
-                title={jeepInfo.alt_title}
+                alt={t("Jeep.alt_title")}
+                title={t("Jeep.alt_title")}
                 width={300}
                 height={200}
                 className="block md:hidden object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
@@ -128,7 +123,7 @@ export default async function HomePage() {
               <Link
                 href="/jeep"
                 className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
-                Saiba Mais
+                {t("Jeep.title_link")}
               </Link>
             </div>
           </section>
@@ -139,25 +134,26 @@ export default async function HomePage() {
         <div key={privativosInfo.titulo_pagina}>
           <section id="privativos" className="mt-7 p-7 text-white text-center">
             <h2 className="text-4xl mb-5 uppercase">
-              {t("Privativos.title")} <br />
-              {privativosInfo.titulo_pagina}
+              {t("Privativos.title")}
+              {/* {privativosInfo.titulo_pagina} */}
             </h2>
             <h3 className="text-2xl mb-5 uppercase font-bold">
-              {privativosInfo.titulo}
+              {t("Privativos.sub_title")}
+              {/* {privativosInfo.titulo} */}
             </h3>
             <div className="inline-block">
               <Image
                 src={`/assets/images/${privativosInfo.imagem}`}
-                alt={privativosInfo.alt_title}
-                title={privativosInfo.alt_title}
+                alt={t("Privativos.alt_title")}
+                title={t("Privativos.alt_title")}
                 width={500}
                 height={333}
                 className="hidden md:block object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
               />
               <Image
                 src={`/assets/images/${privativosInfo.imagem}`}
-                alt={privativosInfo.alt_title}
-                title={privativosInfo.alt_title}
+                alt={t("Privativos.alt_title")}
+                title={t("Privativos.alt_title")}
                 width={300}
                 height={200}
                 className="block md:hidden object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
@@ -168,7 +164,7 @@ export default async function HomePage() {
               <Link
                 href="/privativos"
                 className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
-                Saiba Mais
+                {t("Privativos.title_link")}
               </Link>
             </div>
           </section>
@@ -181,25 +177,26 @@ export default async function HomePage() {
             id="experiencias"
             className="mt-7 p-7 text-white text-center">
             <h2 className="text-4xl mb-5 uppercase">
-              {t("Experiencias.title")} <br />
-              {experienciaInfo.titulo_pagina}
+              {t("Experiencias.title")}
+              {/* {experienciaInfo.titulo_pagina} */}
             </h2>
             <h3 className="text-2xl mb-5 uppercase font-bold">
-              {experienciaInfo.titulo}
+              {t("Experiencias.sub_title")}
+              {/* {experienciaInfo.titulo} */}
             </h3>
             <div className="inline-block">
               <Image
                 src={`/assets/images/${experienciaInfo.imagem}`}
-                alt={experienciaInfo.alt_title}
-                title={experienciaInfo.alt_title}
+                alt={t("Experiencias.alt_title")}
+                title={t("Experiencias.alt_title")}
                 width={500}
                 height={333}
                 className="hidden md:block object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
               />
               <Image
                 src={`/assets/images/${experienciaInfo.imagem}`}
-                alt={experienciaInfo.alt_title}
-                title={experienciaInfo.alt_title}
+                alt={t("Experiencias.alt_title")}
+                title={t("Experiencias.alt_title")}
                 width={300}
                 height={200}
                 className="block md:hidden object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
@@ -210,7 +207,7 @@ export default async function HomePage() {
               <Link
                 href="/experiencias"
                 className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
-                Saiba Mais
+                {t("Experiencias.title_link")}
               </Link>
             </div>
           </section>
