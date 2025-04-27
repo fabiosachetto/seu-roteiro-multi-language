@@ -101,8 +101,8 @@ export default async function EscunasPage() {
 
             <div className="mt-5">
               <Link
-                // href={{ pathname: infoEscuna.contato as typeof string }}
-                href={infoEscuna.contato}
+                href={{ pathname: "/" }}
+                // href={infoEscuna.contato}
                 target="_blank"
                 className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
                 {t("whatsapp")}
