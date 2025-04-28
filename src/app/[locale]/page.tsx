@@ -56,9 +56,9 @@ export default async function HomePage() {
         </Link>
       </div> */}
 
-      <div>
+      <div id="bg-video" className="p-10">
         <iframe
-          className="item-center mx-auto mt-5 mb-5 rounded-lg border-4 border-white"
+          className="item-center mx-auto rounded-lg border-4 border-white"
           width="400"
           height="255"
           src="https://www.youtube.com/embed/g_-2AvSidUM?si=X23GVh733SFINvyd"
