@@ -59,8 +59,8 @@ export default async function HomePage() {
       <div>
         <iframe
           className="item-center mx-auto mt-5 mb-5 rounded-lg border-4 border-white"
-          width="560"
-          height="315"
+          width="400"
+          height="255"
           src="https://www.youtube.com/embed/g_-2AvSidUM?si=X23GVh733SFINvyd"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
