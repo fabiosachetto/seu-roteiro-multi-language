@@ -56,7 +56,7 @@ export default async function HomePage() {
         </Link>
       </div> */}
 
-      <div id="bg-video" className="p-10">
+      <div id="bg-video" className="py-20">
         <iframe
           className="item-center mx-auto rounded-lg border-4 border-white"
           width="400"
