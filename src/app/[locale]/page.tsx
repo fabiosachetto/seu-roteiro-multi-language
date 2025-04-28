@@ -56,6 +56,18 @@ export default async function HomePage() {
         </Link>
       </div> */}
 
+      <div>
+        <iframe
+          className="item-center mx-auto mt-5 mb-5 rounded-lg border-4 border-white"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/g_-2AvSidUM?si=X23GVh733SFINvyd"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen></iframe>
+      </div>
+
       {escunaInfo && (
         <div key={escunaInfo.titulo_pagina}>
           <section id="escuna" className="mt-7 p-7 text-white text-center">
