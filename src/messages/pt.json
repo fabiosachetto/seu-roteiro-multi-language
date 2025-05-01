@@ -23,20 +23,37 @@
       "title_link": "Saiba Mais"
     }
   },
+
   "EscunasPage": {
-    "title": "PT - Escunas",
-    "whatsapp": "PT - Reserve Já!!!"
+    "title": "Escunas",
+    "cinco_paradas": {
+      "titulo": "Roteiro com 5 paradas",
+      "manutencao": "boat-manutencao.png",
+      "imagem": "escuna-cinco-paradas.jpeg",
+      "alt_title": "Roteiro com 5 paradas: Ilha dos Cocos, Praia da Lula, Lagoa Azul, Praia Vermelha e Ilha Comprida.",
+      "roteiro": "Ilha dos Cocos, Praia da Lula, Lagoa Azul, Praia Vermelha e Ilha Comprida.",
+      "horario_inicio": "10h30",
+      "horario_retorno": "16h00",
+      "servicos": "Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.",
+      "wifi": "",
+      "alerta": "Não é permitido embarcar com cooler e caixa de som!",
+      "valor": "R$ 100",
+      "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20De%20um%20Andar."
+    }
   },
+
   "JeepPage": {
-    "title": "PT - Jeep",
-    "whatsapp": "PT - Reserve Já!!!"
+    "title": "Jeep",
+    "cachoeira_alambiques": {}
   },
+
   "PrivativosPage": {
-    "title": "PT - Privativos",
-    "whatsapp": "PT - Reserve Já!!!"
+    "title": "Privativos",
+    "lancha": {}
   },
+
   "ExperienciasPage": {
-    "title": "PT - Experiencias",
-    "whatsapp": "PT - Reserve Já!!!"
+    "title": "Experiências",
+    "city_tour": {}
   }
 }
